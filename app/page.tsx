@@ -7,9 +7,6 @@ function HomePage() {
         <h1 className="text-5xl font-bold mb-10">
           ChatGPT
         </h1>
-        <h3 className="text-xl mb-10 justify-center">
-          Developed by Catherine Onia
-        </h3>
         <div className="flex space-x-2 text-center">
           <div>
             <div className="flex flex-col items-center justify-center mb-5">
@@ -31,7 +28,7 @@ function HomePage() {
             </div>
 
             <div className="space-y-2">
-            <p className="infoText">Experiment with different ChatGPT Models</p>
+            <p className="infoText">Experiment with different ChatGPT Models </p>
               <p className="infoText">Messages are stored in Firebase's Firestore</p>
               <p className="infoText">Hot Toast notifications when ChatGPT is thinking</p>
             </div>

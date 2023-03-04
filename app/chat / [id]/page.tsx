@@ -1,6 +1,6 @@
 function ChatPage() {
   return (
-  <div>CharPage</div>
+  <div>ChatPage</div>
   )
 };
 

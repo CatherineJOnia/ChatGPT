@@ -6,8 +6,8 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import toast from "react-hot-toast";
 import { db } from "../firebase";
-// import ModelSelection from "./ModelSelection";
-// import useSWR from "swr";
+import ModelSelection from "./ModelSelection";
+import useSWR from "swr";
 import { useRouter } from "next/navigation";
 
 type Props = {
@@ -18,8 +18,9 @@ function ChatInput({ chatId }: Props) {
   const [prompt, setPrompt] = useState("");
   const { data: session } = useSession();
 
-  // useSWR to get model
-  const model = "text-davinci-003"
+  const { data: model } = useSWR("model", {
+    fallbackData: "text-davinci-003",
+  });
 
   const sendMessage = async (evt: FormEvent<HTMLFormElement>) => {
     evt.preventDefault();

@@ -10,7 +10,7 @@ type ButtonText = {
   text?: string;
 };
 
-function NewChat() {
+function NewChat({ text }: ButtonText) {
   const router = useRouter();
   const { data: session } = useSession();
 
@@ -29,8 +29,7 @@ function NewChat() {
   return (
     <div onClick={createNewChat} className="border-gray-700 border chatRow">
       <PlusIcon className="h-4 w-4" />
-      {/* <p className="text-lg">{!text ? "New Chat" : text}</p> */}
-      <p>New Chat</p>
+      <p className="text-lg">{!text ? "New Chat" : text}</p>
     </div>
 
   )

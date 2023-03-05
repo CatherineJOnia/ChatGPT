@@ -34,7 +34,7 @@ function SideBar() {
         })}
 
       </div>
-      </div>
+    </div>
 
 
     {session && (
@@ -59,6 +59,6 @@ function SideBar() {
     )}
   </div>
   )
-}
+};
 
 export default SideBar;

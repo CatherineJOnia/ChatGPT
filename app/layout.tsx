@@ -33,5 +33,5 @@ export default async function Rootlayout({
           </SessionProvider>
       </body>
     </html>
-  )
-}
+  );
+};

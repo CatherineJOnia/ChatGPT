@@ -6,8 +6,8 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import toast from "react-hot-toast";
 import { db } from "../firebase";
-import ModelSelection from "./ModelSelection";
-import useSWR from "swr";
+// import ModelSelection from "./ModelSelection";
+// import useSWR from "swr";
 import { useRouter } from "next/navigation";
 
 type Props = {
@@ -95,6 +95,6 @@ function ChatInput({ chatId }: Props) {
     </div>
 
   )
-}
+};
 
 export default ChatInput;

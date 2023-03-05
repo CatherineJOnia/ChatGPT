@@ -26,6 +26,13 @@ ChatGPT (Chat Generative Pre-trained Transformer) is a chatbot developed by Open
 <a href="https://tailwindcss.com/"> 
 <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss" width="40" height="40"/> 
 </a>
+<a href="https://next-auth.js.org/"> 
+<img src="https://github.com/CatherineJOnia/ChatGPT-Clone/blob/main/public/nextauth.png" alt="nextauth" width="40" height="40"/> 
+</a>
+<a href="https://openai.com/"> 
+<img src="https://github.com/CatherineJOnia/ChatGPT-Clone/blob/main/public/openai.png" alt="openai" width="40" height="40"/> 
+</a>
+
 </p>
 
 ## Demo

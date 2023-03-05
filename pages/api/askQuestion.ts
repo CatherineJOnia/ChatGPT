@@ -31,8 +31,8 @@ export default async function handler(
       user: {
           _id: "ChatGPT",
           name: "ChatGPT",
-          avatar: "https://i.postimg.cc/CMXCBcvs/chatgpt-icon.png"
-      }
+          avatar: "https://links.papareact.com/89k",
+      },
     };
 
       await adminDb

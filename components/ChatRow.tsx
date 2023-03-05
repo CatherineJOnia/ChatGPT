@@ -1,3 +1,5 @@
+"use client";
+
 import { ChatBubbleLeftIcon, TrashIcon } from "@heroicons/react/24/outline";
 import { collection, deleteDoc, doc } from "firebase/firestore";
 import { useSession } from "next-auth/react";
@@ -46,6 +48,6 @@ function ChatRow({ id }: props) {
       />
     </Link>
   );
-}
+};
 
 export default ChatRow;

@@ -1,3 +1,5 @@
+"use client";
+
 import { DocumentData } from "firebase/firestore";
 
 type Props = {
@@ -18,6 +20,6 @@ function Message({ message }: Props) {
       </div>
     </div>
   );
-}
+};
 
 export default Message;

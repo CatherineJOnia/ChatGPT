@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -18,6 +20,6 @@ function DevelopedBy() {
       </div>
     </div>
   );
-}
+};
 
 export default DevelopedBy;

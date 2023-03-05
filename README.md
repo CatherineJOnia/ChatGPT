@@ -1,27 +1,82 @@
-# Next.js + Tailwind CSS Example
+# ChatGPT Clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+ChatGPT (Chat Generative Pre-trained Transformer) is a chatbot developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT-3 family of large language models and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Features
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- ChatGPT Engine Selection
+- Google Authentication
+- Dynamic Routing with Nextjs 13
+- Real-Time Chat History with Firebase Firestore
+- Hot Toast Notifications
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Tech Stack
+
+<p> 
+<a href="https://www.typescriptlang.org/"> 
+<img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="typescript" width="40" height="40"/> </a>
+<a href="https://reactjs.org/">
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="reactjs" width="40" height="40"/>
+</a>
+<a href="https://firebase.google.com/"> 
+<img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain.svg" alt="firebase" width="40" height="40"/> 
+</a> 
+<a href="https://tailwindcss.com/"> 
+<img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss" width="40" height="40"/> 
+</a>
+</p>
+
+## Demo
+
+![Insert GIF]()
+
+  
+## Experience ChatGPT Clone Deployed! 
+
+https://chatgpt-onia-steel.vercel.app
+  
+
+## Installation
+
+`**Note**`: This app requires Secret Keys from <a href="https://console.cloud.google.com/" >Google OAuth Client ID and Client Secret</a>,  <a href="https://openai.com/api/" >OPENAI API</a>, and <a href="https://firebase.google.com/" >Firebase Service Account</a>
+
+Clone the project
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+  git clone https://github.com/CatherineJOnia/DinGo.git
 ```
+
+Go to the project directory
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+  cd DinGo
 ```
+
+Create database
 
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+  createdb dingo
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start:dev
+```
+  
+Log in as an admin
+  
+```bash
+  cat@dingo.com
+  123cat
+```
+ 
+  

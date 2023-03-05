@@ -52,7 +52,7 @@ function ChatInput({ chatId }: Props) {
       message
     );
 
-    //Toast loading
+    const notification = toast.loading("ChatGPT is thinking...");
 
     await fetch("/api/askQuestion", {
       method: "POST",
@@ -66,9 +66,10 @@ function ChatInput({ chatId }: Props) {
         session,
       }),
     })
-      .then(() => {
-        // Toast successful
-      })
+    .then(() => {
+      toast.success("ChatGPT has responded!", { id: notification });
+    })
+    .catch(() => console.log("Server is busy! Please try later."));
   };
 
   return (

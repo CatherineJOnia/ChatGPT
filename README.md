@@ -45,19 +45,7 @@ https://chatgpt-onia-steel.vercel.app
 Clone the project
 
 ```bash
-  git clone https://github.com/CatherineJOnia/DinGo.git
-```
-
-Go to the project directory
-
-```bash
-  cd DinGo
-```
-
-Create database
-
-```bash
-  createdb dingo
+  git clone git@github.com:CatherineJOnia/ChatGPT-Clone.git
 ```
 
 Install dependencies
@@ -66,17 +54,30 @@ Install dependencies
   npm install
 ```
 
+In the root directory of the project files, create a `.env.local` file
+
+```bash
+  .env.local
+```
+
+In the `.env.local` file, create the following environment variables:
+
+```
+GOOGLE_ID=YOUR_GOOGLE_OAUTH_ID
+GOOGLE_SECRET=YOUR_GOOGLE_OAUTH_SECRET_KEY
+NEXTAUTH_SECRET=ANY_RANDOM_LONG_ALPHANUMERIC_STRING
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+FIREBASE_SERVICE_ACCOUNT_KEY=YOUR_FIREBASE_SERVICE_ACCOUNT_KEY
+
+```
+
 Start the server
 
 ```bash
-  npm run start:dev
+  npm run dev
 ```
   
-Log in as an admin
+Access the project in your browser at [`localhost:3000`](http://localhost:3000)
   
-```bash
-  cat@dingo.com
-  123cat
-```
  
   

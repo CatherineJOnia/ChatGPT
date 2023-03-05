@@ -93,6 +93,9 @@ function ChatInput({ chatId }: Props) {
             <PaperAirplaneIcon className="h-4 2-4 -rotate-45" />
           </button>
       </form>
+      <div className="md:hidden">
+          <ModelSelection />
+      </div>
     </div>
 
   )

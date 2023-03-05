@@ -6,4 +6,4 @@ interface Message {
       name: string;
       avatar: string
   }
-}
+};

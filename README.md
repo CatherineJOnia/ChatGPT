@@ -40,7 +40,7 @@ https://chatgpt-onia-steel.vercel.app
 
 ## Installation
 
-`**Note**`: This app requires Secret Keys from <a href="https://console.cloud.google.com/" >Google OAuth Client ID and Client Secret</a>,  <a href="https://openai.com/api/" >OPENAI API</a>, and <a href="https://firebase.google.com/" >Firebase Service Account</a>
+`** Note **`: This app requires Secret Keys from <a href="https://console.cloud.google.com/" >Google OAuth Client ID and Client Secret</a>,  <a href="https://openai.com/api/" >OPENAI API</a>, and <a href="https://firebase.google.com/" >Firebase Service Account</a>
 
 Clone the project
 

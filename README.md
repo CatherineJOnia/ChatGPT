@@ -20,6 +20,9 @@ ChatGPT (Chat Generative Pre-trained Transformer) is a chatbot developed by Open
 <a href="https://reactjs.org/">
 <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="reactjs" width="40" height="40"/>
 </a>
+<a href="https://nextjs.org/">
+<img src="https://github.com/CatherineJOnia/ChatGPT-Clone/blob/main/public/nextjs.png" alt="nextjs" width="40" height="40"/>
+</a>
 <a href="https://firebase.google.com/"> 
 <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain.svg" alt="firebase" width="40" height="40"/> 
 </a> 

@@ -1,6 +1,6 @@
 # ChatGPT Clone
 
-ChatGPT (Chat Generative Pre-trained Transformer) is a chatbot developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT-3 family of large language models and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
+ChatGPT is a natural language processing (NLP) system developed by OpenAI. It is designed to generate human-like conversations in response to user input. ChatGPT uses a large neural network to generate the conversations, which are based on an understanding of the context and knowledge of language. ChatGPT is meant to be used by developers to create more human-like, interactive chatbots.
 
 
 ## Features

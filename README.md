@@ -1,6 +1,6 @@
 # ChatGPT Clone
 
-ChatGPT is a natural language processing (NLP) system developed by OpenAI. It is designed to generate human-like conversations in response to user input. ChatGPT uses a large neural network to generate the conversations, which are based on an understanding of the context and knowledge of language. ChatGPT is meant to be used by developers to create more human-like, interactive chatbots.
+ChatGPT is a natural language processing (NLP) model developed by OpenAI that uses machine learning to generate text conversations. It can be used to build interactive bots that can engage with users in a conversational way and provide real-time responses based on input. It provides near-human level conversation quality and can be used for applications such as customer support, virtual assistants and natural language understanding.
 
 
 ## Features

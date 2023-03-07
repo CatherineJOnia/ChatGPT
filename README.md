@@ -1,4 +1,4 @@
-# ChatGPT Clone
+# ChatGPT Clone -- ChatOnia
 
 ChatGPT is a natural language processing (NLP) model developed by OpenAI that uses machine learning to generate text conversations. It can be used to build interactive bots that can engage with users in a conversational way and provide real-time responses based on input. It provides near-human level conversation quality and can be used for applications such as customer support, virtual assistants and natural language understanding.
 

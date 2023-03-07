@@ -40,12 +40,13 @@ ChatGPT is a natural language processing (NLP) model developed by OpenAI that us
 
 ## Demo
 
-![Insert GIF]()
+![Google Authentication](https://github.com/CatherineJOnia/ChatGPT-Clone/blob/main/public/Login.gif)
+![Functionality](https://github.com/CatherineJOnia/ChatGPT-Clone/blob/main/public/Functionality.gif)
 
   
 ## Experience ChatGPT Clone Deployed! 
 
-https://chatgpt-onia.vercel.app
+[Click Here](https://chatgpt-onia.vercel.app) to test out the app! 
   
 
 ## Installation
@@ -58,6 +59,11 @@ Clone the project
   git clone git@github.com:CatherineJOnia/ChatGPT-Clone.git
 ```
 
+Enter the project
+
+```bash
+  cd ChatGPT-Clone
+```
 Install dependencies
 
 ```bash

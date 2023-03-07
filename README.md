@@ -45,7 +45,7 @@ ChatGPT is a natural language processing (NLP) model developed by OpenAI that us
   
 ## Experience ChatGPT Clone Deployed! 
 
-https://chatgpt-onia-steel.vercel.app
+https://chatgpt-onia.vercel.app
   
 
 ## Installation

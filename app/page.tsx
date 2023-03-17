@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center h-screen px-2 text-white">
         <h1 className="text-5xl font-bold mb-10">
-          ChatGPT
+          ChatOnia
         </h1>
         <div className="flex space-x-2 text-center">
 
@@ -27,9 +27,9 @@ function HomePage() {
               <h2>Capabilities</h2>
             </div>
             <div className="space-y-2">
-            <p className="infoText">Experiment with different ChatGPT Models </p>
+            <p className="infoText">Experiment with different OpenAI Language Models </p>
               <p className="infoText">Messages are stored in Firebase's Firestore</p>
-              <p className="infoText">Hot Toast notifications when ChatGPT is thinking</p>
+              <p className="infoText">Hot Toast notifications when ChatOnia is thinking</p>
             </div>
           </div>
 

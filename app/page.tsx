@@ -40,7 +40,7 @@ function HomePage() {
             </div>
             <div className="space-y-2">
               <p className="infoText">May occasionally generate incorrect information</p>
-              <p className="infoText">May occasionally product harmful instructions of biased content</p>
+              <p className="infoText">May occasionally product harmful instructions or biased content</p>
               <p className="infoText">Limited knowledge of world and events after 2021</p>
             </div>
 
